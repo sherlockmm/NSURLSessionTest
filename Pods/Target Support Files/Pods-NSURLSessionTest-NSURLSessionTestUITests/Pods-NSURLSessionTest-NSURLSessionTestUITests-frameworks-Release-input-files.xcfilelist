@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-NSURLSessionTest-NSURLSessionTestUITests/Pods-NSURLSessionTest-NSURLSessionTestUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
+${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework
+${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework
