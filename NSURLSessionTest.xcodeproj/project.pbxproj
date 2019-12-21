@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0284ACC2075512019CAE74FD /* Pods_NSURLSessionTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C33BEC66025931BE86FA440 /* Pods_NSURLSessionTest.framework */; };
 		02C2ACE85A767650F04585CA /* Pods_NSURLSessionTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E976F5681EFCD49A1023B5C1 /* Pods_NSURLSessionTestTests.framework */; };
+		164B4AAE23ADBA960029EF7A /* URLSessionTest.mov in Resources */ = {isa = PBXBuildFile; fileRef = 164B4AAD23ADBA960029EF7A /* URLSessionTest.mov */; };
 		54BC6A009A155FF51CEC66EF /* Pods_NSURLSessionTest_NSURLSessionTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A7B9A8B1CC16E6C83A5273 /* Pods_NSURLSessionTest_NSURLSessionTestUITests.framework */; };
 		6D16030423A4725000BE86C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16030323A4725000BE86C1 /* AppDelegate.m */; };
 		6D16030723A4725000BE86C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16030623A4725000BE86C1 /* ViewController.m */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0A12A9AF74E00D615CD5C51B /* Pods-NSURLSessionTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSURLSessionTestTests.release.xcconfig"; path = "Target Support Files/Pods-NSURLSessionTestTests/Pods-NSURLSessionTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		164B4AAD23ADBA960029EF7A /* URLSessionTest.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = URLSessionTest.mov; sourceTree = "<group>"; };
 		24BE380BEE96AF66FCBFA261 /* Pods-NSURLSessionTest-NSURLSessionTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSURLSessionTest-NSURLSessionTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-NSURLSessionTest-NSURLSessionTestUITests/Pods-NSURLSessionTest-NSURLSessionTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B3D32FA12BEFFCBB4E9290E /* Pods-NSURLSessionTest-NSURLSessionTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSURLSessionTest-NSURLSessionTestUITests.release.xcconfig"; path = "Target Support Files/Pods-NSURLSessionTest-NSURLSessionTestUITests/Pods-NSURLSessionTest-NSURLSessionTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		42A7B9A8B1CC16E6C83A5273 /* Pods_NSURLSessionTest_NSURLSessionTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSURLSessionTest_NSURLSessionTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164B4AAC23ADBA6D0029EF7A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				164B4AAD23ADBA960029EF7A /* URLSessionTest.mov */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		6D1602F623A4725000BE86C1 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 		6D16030123A4725000BE86C1 /* NSURLSessionTest */ = {
 			isa = PBXGroup;
 			children = (
+				164B4AAC23ADBA6D0029EF7A /* Video */,
 				6D16030223A4725000BE86C1 /* AppDelegate.h */,
 				6D16030323A4725000BE86C1 /* AppDelegate.m */,
 				6D16030523A4725000BE86C1 /* ViewController.h */,
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D16030F23A4725600BE86C1 /* LaunchScreen.storyboard in Resources */,
+				164B4AAE23ADBA960029EF7A /* URLSessionTest.mov in Resources */,
 				6D16030C23A4725600BE86C1 /* Assets.xcassets in Resources */,
 				6D16030A23A4725000BE86C1 /* Main.storyboard in Resources */,
 			);
